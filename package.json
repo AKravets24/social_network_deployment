@@ -1,6 +1,6 @@
 {
   "homepage": "https://AKravets24.github.io/social_network_deployment/",
-  "name": "my-app",
+  "name": "social_network_deployment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
