@@ -1,0 +1,52 @@
+.content2 {
+    height: inherit;
+    opacity: 1;
+}
+
+.feedbackWindow0,
+.feedbackWindow1,
+.feedbackWindow2,
+.feedbackWindow {
+    position: absolute;
+    height: 110px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #4f4f4f;
+}
+
+.feedbackWindow0 {
+    left: 10px;
+    bottom: 10px;
+}
+.feedbackWindow1 {
+    left: 10px;
+    bottom: 140px;
+}
+.feedbackWindow2 {
+    left: 10px;
+    bottom: 270px;
+}
+
+.feedbackWindow0 button,
+.feedbackWindow1 button,
+.feedbackWindow2 button {
+    width: 25px;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px 0 0 270px;
+}
+.feedbackWindow0 button:hover,
+.feedbackWindow1 button:hover,
+.feedbackWindow2 button:hover {
+    background-color: #613233;
+    cursor: pointer;
+}
+.feedbackWindow0 p,
+.feedbackWindow1 p,
+.feedbackWindow2 p {
+    text-align: center;
+    margin: 0 ;
+    color: white;
+    font-size: 22px;
+}

@@ -1,0 +1,109 @@
+.loginBackground {
+    height: 590px;
+    border-radius: 0 0 20px 0;
+    background-size: cover;
+    background-image: url("./../../../redux/img/login/honor.jpg");
+    display: grid;
+    opacity: 0.9;
+    grid-template-areas:
+        'logInHeader logInHeader logInHeader'
+        'AllFormsWrapper AllFormsWrapper AllFormsWrapper'
+        'epigraph epigraph epigraph';
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: relative;
+}
+
+.reactCrown {
+    background-image: url("./../../../redux/img/login/logo.png");
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    overflow: 'hidden';
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.redCrown {
+    background-position: -100px 6px
+}
+
+.blueCrown {
+    background-position: 0px 6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .reactCrown {
+        animation: reactCrown-spin infinite 10s linear;
+    }
+}
+
+@keyframes reactCrown-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loginBackground h1 {
+    grid-area: logInHeader;
+    text-align: center;
+}
+
+.AllFormsWrapper {
+    grid-area: AllFormsWrapper;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.formsWrapper {
+
+}
+
+.formsWrapper label{
+    color: red;
+}
+
+.formInput {
+    width: 350px;
+    height: 40px;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 5px;
+ }
+
+.errorsContainers {
+    height: 30px;
+    width: 300px;
+}
+
+h3  {
+    margin: 0;
+    color: #613233;
+}
+
+.captchaDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.epigraph {
+    grid-area: epigraph;
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-self: end;
+    margin: 0 0 30px 50px;
+}
+
+h4 {
+    margin: 0;
+    color: #613233;
+}

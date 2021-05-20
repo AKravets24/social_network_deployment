@@ -1,0 +1,72 @@
+.background {
+    background-color: lightyellow;
+    height: inherit;
+    border-radius:  0 0 20px 0;
+    display: grid;
+
+    grid-template-areas:
+    'header'
+    'samurai';
+
+    grid-template-rows: 100px 3fr;
+}
+
+.header {
+    grid-area: header;
+    align-self: center;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.wrapper {
+    grid-area: samurai;
+    position: relative;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.samurai {
+    width: 25%;
+    height:100%;
+    background-image: url("./../../../redux/img/404/samurai.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+
+.japanSun {
+    border-radius: 50%;
+    left: 32%;
+    top: 30%;
+    height: 400px;
+    width:  400px;
+    background-image: url("./../../../redux/img/404/japanSunRed1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .japanSun {
+        animation: japanSun-spin infinite 50s linear;
+    }
+}
+
+@keyframes japanSun-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

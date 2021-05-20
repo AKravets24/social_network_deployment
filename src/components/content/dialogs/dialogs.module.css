@@ -1,0 +1,622 @@
+.dialogsPage {
+    border-radius: 5px 5px 20px 5px;
+}
+
+.delay {
+    transition: 4000ms;
+}
+
+.dialogN {background-color: #bee3fa;    }
+.dialogM {background-color: #ffc150;    }
+.dialogD {background-color: lightblue; }
+.dialogE {background-color: #4d0000;   }
+
+.dialogListAndArea {
+    display: grid;
+    grid-template-areas: 'dialogList specificDialog';
+    grid-template-columns: 1fr 3fr;
+    min-height: 500px;
+    height: auto!important;
+    max-height: calc(100vh - 120px);
+}
+
+.dialogList {
+    grid-area: dialogList;
+    width: 100%;
+    min-height: inherit;
+    height: inherit;
+    max-height: inherit;
+    display: flex;
+}
+
+.constrictor {
+    width: 100%;
+    overflow: auto;
+    margin: 43px 0 90px 0;
+}
+
+.dialogListN::-webkit-scrollbar                                                                    {background-color: lightyellow;  }
+.dialogListN::-webkit-scrollbar-button,.dialogAreaN::-webkit-scrollbar-button:single-button        {background-color: deepskyblue;  }
+.dialogListN::-webkit-scrollbar-thumb, .dialogAreaN::-webkit-scrollbar-thumb                       {background-color: deepskyblue;  }
+
+.dialogListM::-webkit-scrollbar                                                                    {background-color: lightyellow;  }
+.dialogListM::-webkit-scrollbar-button,.dialogAreaM::-webkit-scrollbar-button:single-button        {background-color: orangered;    }
+.dialogListM::-webkit-scrollbar-thumb, .dialogAreaM::-webkit-scrollbar-thumb                       {background-color: orangered;    }
+
+.dialogListD::-webkit-scrollbar                                                                    {background-color: lightyellow;  }
+.dialogListD::-webkit-scrollbar-button,.dialogAreaD::-webkit-scrollbar-button:single-button        {background-color: lightskyblue; }
+.dialogListD::-webkit-scrollbar-thumb, .dialogAreaD::-webkit-scrollbar-thumb                       {background-color: lightskyblue; }
+
+.dialogListE::-webkit-scrollbar                                                                    {background-color: lightyellow;  }
+.dialogListE::-webkit-scrollbar-button,.dialogAreaE::-webkit-scrollbar-button:single-button        {background-color: darkred;      }
+.dialogListE::-webkit-scrollbar-thumb, .dialogAreaE::-webkit-scrollbar-thumb                       {background-color: darkred;      }
+
+.dialogListLoaderWrapper {
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dialogListLoader {
+    height: 80px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.dialogListLoaderWrapper :nth-child(2){
+    height: 120px;
+}
+
+
+.dialogListLoaderWrapper :nth-child(3){
+    transform: rotate(180deg)
+}
+
+.errorBlock {
+    margin-left: 20px;
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.errorBlock h2 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+    color: red;
+}
+
+.errorBlock div {
+    height: 150px;
+}
+
+.errorBlock img {
+    width: 150px;
+}
+
+.errorBlock p {
+    font-size: 25px;
+}
+.errBTN {
+    border-radius: 10px;
+    width: 150px;
+    outline: none;
+    font-size: 25px;
+}
+
+.constrictor::-webkit-scrollbar {
+    width:   10px;
+    height:  70%;
+}
+
+.constrictor::-webkit-scrollbar-button {
+    height: 7%;
+}
+
+.constrictor::-webkit-scrollbar-thumb {
+    width: 20px;
+}
+
+.constrictor div:first-child {
+    margin-top: 0px;
+}
+
+.dialogList a {
+    margin-left: 15px;
+}
+
+.dialogList a:first-child {}
+
+.dialogList a:last-child {
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.talkerBlock {
+    height: 85px;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 15px auto 0 auto;
+    padding-right: 2%;
+    hyphens: auto;
+    position: relative;
+}
+.talkerBlockN              {background-color: #a9c2ff;    }
+.talkerBlockM              {background-color: #ffffef;    }
+.talkerBlockD              {background-color: lightyellow;}
+.talkerBlockE              {background-color: #ffe1e1;    }
+
+
+
+.talkerBlockA_N            {color: blue;         }
+.talkerBlockA_N:hover      {color: #606069;      }
+.talkerBlockA_N:active     {color: white         }
+.activeLinkN               {color: white         }
+
+.talkerBlockA_M            {color: #f46c05;      }
+.talkerBlockA_M:hover      {color: #3d3030;      }
+.talkerBlockA_M:active     {color: black         }
+.activeLinkM               {color: black         }
+
+.talkerBlockA_D            {color: deepskyblue;  }
+.talkerBlockA_D:hover      {color: royalblue;    }
+.talkerBlockA_D:active     {color: blue;         }
+.activeLinkD               {color: red;          }
+
+.talkerBlockA_E            {color: blueviolet    }
+.talkerBlockA_E:hover      {color: blue          }
+.talkerBlockA_E:active     {color: black         }
+.activeLinkE               {color: darkred       }
+
+.talkerBlock:hover {
+    overflow-x: auto;
+}
+
+.talkerBlock::-webkit-scrollbar {
+    background-color: lightyellow;
+    height: 7px;
+    width: 90%;
+    padding-top: 50px;
+    -webkit-box-shadow: inset 0 0 6px grey;
+    top: 10px;
+}
+
+.talkerBlock::-webkit-scrollbar-thumb {
+    background-color: dodgerblue;
+}
+
+.talkerBlock::-webkit-scrollbar-thumb:horizontal {
+    width: 10px;
+}
+
+.avaWrapper {
+    height: 95%;
+}
+
+.talkerBlock img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 7px;
+    
+}
+
+.msgCounter {
+    position: absolute;
+    pointer-events: none;
+    top: 1px;
+    left: 75px;
+    font-size: 20px;
+}
+
+.userNameWrapper {
+    height: 100%;
+    width: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.userNameWrapper a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dialogsAreaAndSender {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: visible;
+    min-height: 600px;
+    height: auto!important;
+    max-height: calc(100vh - 150px );
+}
+
+.editWrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.editWrapper h2{
+    margin: 0;
+ }
+
+.nameInHeaderN { color: black} 
+.nameInHeaderM { color: black}
+.nameInHeaderD { color: black}
+.nameInHeaderE { color: white}
+
+.dialogArea {
+    grid-area: specificDialog;
+    width: 96%;
+    margin: 0 auto 0 auto;
+    border-radius: 20px 20px 0 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(500px - 150px);
+    height: 100vh;
+}
+
+.dialogAreaN,.textareaN {background-color: #fdfdfd;     }
+.dialogAreaM,.textareaM {background-color: #faffd3;     }
+.dialogAreaD,.textareaD {background-color: lightyellow; }
+.dialogAreaE,.textareaE {background-color: #ffe1e1;     }
+
+.noDialogsList {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noDialogsList p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.certainLDRWrapper {
+    height: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogArea:last-child {
+    background-color: red;
+}
+
+.oldMsgsLoader {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}
+
+.oldMsgsLoader img {
+    margin: 0 auto;
+    width: 100%;
+    height: 20px;
+}
+
+.prevBTNLdrBasic {
+    margin: 0;
+    width: 80%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.BTNPassive {
+    cursor: default;
+}
+
+.addPrevBTNHidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.addPrevBTNShown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.followBTN_ERR_N        {border: 1px solid #ff5f5f; box-shadow: #ff5f5f 0 0 19px 10px;  background-color: #ff3b3b; color: white; font-weight: bold; }
+.followBTN_ERR_N:hover  {border: 1px solid red;     box-shadow: red 0 0 19px 10px;      background-color: red;     cursor: pointer;                   }
+.followBTN_ERR_N:active {border: 1px solid darkred; box-shadow: darkred 0 0 19px 10px;  background-color: darkred; cursor: pointer;                   }
+
+
+.followBTN_ERR_M        {border: 1px solid darkred; box-shadow: #a40000 0 0 19px 10px; background-color: #a40000; color: white; font-weight: bold;  }
+.followBTN_ERR_M:hover  {border: 1px solid #880f0f; box-shadow: #880f0f 0 0 19px 10px; background-color: #880f0f; cursor: pointer;                    }
+.followBTN_ERR_M:active {border: 1px solid #5f0101; box-shadow: #5f0101 0 0 19px 10px; background-color: #5f0101; cursor: pointer;                    }
+
+
+.followBTN_ERR_D        {border: 1px solid #ff2a2a; box-shadow: #ff7070 0 0 19px 10px; background-color: #ff7070; font-weight: bold;                  }
+.followBTN_ERR_D:hover  {border: 1px solid #ff0000; box-shadow: #ff2424 0 0 19px 10px; background-color: #ff2424; cursor: pointer;                    }
+.followBTN_ERR_D:active {border: 1px solid red;     box-shadow: #ce0303 0 0 19px 10px; background-color: #ce0303; cursor: pointer;                    }
+
+
+.followBTN_ERR_E        {border: 1px solid #ff0000; box-shadow: #ff4141 0 0 19px 15px; background-color: #ff4141;  color: #fdfdfd; font-weight: bold;}
+.followBTN_ERR_E:hover  {border: 1px solid #ac0000; box-shadow: #ac0000 0 0 19px 10px; background-color: #ac0000;  cursor: pointer;                    }
+.followBTN_ERR_E:active {border: 1px solid #f30000; box-shadow: #f30000 0 0 19px 10px; background-color: #f30000;  cursor: pointer;                    }
+
+
+.msgStatWrapper {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    margin: 0 0 0 auto;
+}
+
+.messageBlockMe,
+.messageBlockUser {
+    padding: 2px 15px 5px 15px;
+    min-width: 20%;
+    width: auto !important;;
+    max-width: 60%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.ldrAndErr {
+    height: 25px;
+    width:  25px;
+    margin: 5px 10px 0 0;
+}
+
+.checkMark {
+    margin: 5px 0 0 10px;
+    height: 18px;
+}
+
+.errorMarker {
+    color: red;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.contextMenu {
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+    font-size: 25px;
+    background-color: wheat;
+    border-radius: 10px;
+    position: absolute;
+}
+.contMenuMyMsg {
+    top: 0;
+    left: -210px;
+    z-index:  50;
+}
+.contMenuFriendMsg {
+    top: 0;
+    right: -220px;
+    z-index:  50;
+}
+
+
+.contextMenuUpper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contextMenuUpper button {
+    border-radius: 50%;
+}
+
+.repeatNSpam {
+    width: auto;
+}
+
+.deleteMsg {
+    border-top: 2px solid red;
+}
+
+.contextMenuUpper:hover, 
+.deleteMsg:hover{ 
+    background-color: red;
+}
+
+.messageBlockMe {
+    border-radius: 15px 15px 5px 15px;
+    margin: 15px 25px 25px auto;
+}
+
+.messageBlockMe::after {
+    content: '';
+    border: 20px solid transparent;
+    position: absolute;
+    right: -15px; bottom: 0; 
+    transform: rotate(-80deg)
+}
+
+.messageBlockUser::after {
+    content: '';
+    border: 20px solid transparent;
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    border-top: 20px solid #cef3ff;
+    transform: rotate(-190deg)
+}
+
+.myMsgN            {background-color: #b8e9b8;                       }
+.myMsgN::after     {content:'';border-left: 20px solid #b8e9b8;      }
+
+.myMsgM            {background-color: #abffab;                       }
+.myMsgM::after     {content:''; border-left: 20px solid #abffab;     }
+
+.myMsgD            {background-color: lightgreen;                    }
+.myMsgD::after     {content:'';  border-left: 20px solid lightgreen; }
+
+.myMsgE            {background-color: #6fd76f;                       }
+.myMsgE::after     {content:''; border-left: 20px solid #6fd76f;     }
+
+.userMsgN          {background-color: #a6ebff;                       }
+.userMsgN::after   {content:''; border-top: 20px solid #a6ebff;      }
+
+.userMsgM          {background-color: #c7eef9;                       }
+.userMsgM::after   {content:'';border-left: 20px solid #c7eef9;      }
+
+.userMsgD          {background-color: #cef3ff;                       }
+.userMsgD::after   {content:''; border-top: 20px solid #cef3ff;      }
+
+.userMsgE          {background-color:  #cef3ff;                      }
+.userMsgE::after   {content:''; border-top: 20px solid #cef3ff;      }
+
+
+.messageBlockUser {
+    border-radius: 15px 15px 15px 0;
+    margin: 15px auto 25px 20px;
+}
+
+.messageBlockMe:hover,
+.messageBlockUser:hover {
+    transition: 100ms;
+    filter: grayscale(.70);
+}
+
+.messageBody {
+    color: black;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+
+.messageBlockTimeMe {
+    color: green;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.messageBlockTimeUser {
+    color: blue;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+
+.dialogArea::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+}
+
+.dialogArea::-webkit-scrollbar-thumb {
+    height: 50px;
+}
+
+.dialogArea::-webkit-scrollbar-button:single-button {
+    height: 20px;
+    border-radius: 12%;
+}
+
+.sender {
+    border-radius: 0 0 20px 0;
+    width: 100%;
+    position: relative
+    
+}
+
+.scrollToDownBtnHidden {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+
+.scrollToPrevHeightBTN,
+.scrollToDownBtn {
+    opacity: 1;
+    position: absolute;
+    top:  -90px;
+    right: 45px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid grey;
+    cursor: pointer;
+    outline:none;
+}
+
+.scrollToPrevHeightBTN img {
+    transform: rotate(180deg)
+}
+
+.sender form {
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtAreaField{
+    width: 93%;
+    padding-left: 2%;
+    margin: 25px 0 0 0;
+    outline: none;
+    resize: none;
+    height: 90px;
+    border: none;
+    font-size: 22px;
+    border-radius: 0 0 20px 20px;
+}
+
+.sendBTNWrapper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendBTN {
+    font-size: 25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+}
+.sendBTN_N                  {background-color: #4967ff;}
+.sendBTN_N:hover:enabled    {background-color: midnightblue;color:white}
+.sendBTN_N:active:enabled   {background-color: darkblue;color:white}
+
+
+.sendBTN_M                  {background-color: #ff652a;}
+.sendBTN_M:hover:enabled    {background-color: #ff5b1d;color:white}
+.sendBTN_M:active:enabled   {background-color: #ff4700;color:white}
+
+
+.sendBTN_D                  {background-color: #98eaff;}
+.sendBTN_D:hover:enabled    {background-color: #6ad3ff;color:black }
+.sendBTN_D:active:enabled   {background-color: #3ad7ff;color:black}
+
+
+.sendBTN_E                  {background-color: indianred;}
+.sendBTN_E:hover:enabled    {background-color: darkred; color:white}
+.sendBTN_E:active:enabled   {background-color: red; color:white}
+
+

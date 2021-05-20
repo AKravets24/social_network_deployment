@@ -1,0 +1,40 @@
+.post {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+
+    grid-template-areas: 'avatar message';
+
+    grid-template-columns: 1fr 6fr;
+
+}
+
+.avatar {
+    grid-area: avatar;
+    width: 100px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.message {
+    grid-area: message;
+}
+
+.dateIndexer {
+
+    color: grey;
+    font-size: 12px;
+}
+
+.messageText {
+    color: dodgerblue;
+    font-size: 20px;
+}
+.likesCounter {
+    font-family: MS PGothic;
+    color: red;
+    font-size: 14px;
+}

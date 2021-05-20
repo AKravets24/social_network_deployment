@@ -1,0 +1,17 @@
+.suspenseLoader {
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 147, 147);
+    opacity: 0.9;
+    border-radius: 0 0 20px 0;
+    
+}
+
+.loaderMessage {
+    margin: 0;
+    font-size: 48px;
+
+}

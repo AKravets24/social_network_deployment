@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e25d18b-079e-462d-babd-70ae3fde4b80" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZZZxuihy4ZwuwvKL8xd43eCQAG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/content/profile" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Soft\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\07_socialNetwork thunk\my-app\src\components\content\profile\modalWindowStatus" />
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\07_socialNetwork thunk\my-app\src\components\content\HOC" />
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\07_socialNetwork thunk\my-app\src\components\content\unAuthorised" />
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\02_socialNetwork\my-app\src\components" />
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\02_socialNetwork\my-app\src\components\content\news" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\frontend\I\IT-KAMASUTRA\React\projects\02_socialNetwork\my-app\src\components\content\profile" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e25d18b-079e-462d-babd-70ae3fde4b80" name="Default Changelist" comment="" />
+      <created>1585048831357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585048831357</updated>
+      <workItem from="1585048842584" duration="16198000" />
+      <workItem from="1585133381590" duration="2321000" />
+      <workItem from="1585143171824" duration="3794000" />
+      <workItem from="1585158262304" duration="11330000" />
+      <workItem from="1585219562978" duration="4140000" />
+      <workItem from="1585301786669" duration="12459000" />
+      <workItem from="1585565546609" duration="10225000" />
+      <workItem from="1585649930886" duration="17605000" />
+      <workItem from="1585841039670" duration="11586000" />
+      <workItem from="1586016204918" duration="8098000" />
+      <workItem from="1586087622898" duration="16286000" />
+      <workItem from="1586266501241" duration="13878000" />
+      <workItem from="1586348337630" duration="8325000" />
+      <workItem from="1586366465245" duration="6611000" />
+      <workItem from="1586512463525" duration="15091000" />
+      <workItem from="1586868503957" duration="13440000" />
+      <workItem from="1586942838990" duration="15951000" />
+      <workItem from="1587034408815" duration="11122000" />
+      <workItem from="1587124895785" duration="20418000" />
+      <workItem from="1587233766855" duration="8089000" />
+      <workItem from="1587297540423" duration="5150000" />
+      <workItem from="1587378311739" duration="17017000" />
+      <workItem from="1587633373877" duration="18035000" />
+      <workItem from="1587979807667" duration="4267000" />
+      <workItem from="1587999733250" duration="5628000" />
+      <workItem from="1588069994682" duration="19961000" />
+      <workItem from="1588150976471" duration="2612000" />
+      <workItem from="1588164638603" duration="21502000" />
+      <workItem from="1588327871750" duration="10571000" />
+      <workItem from="1588363147744" duration="292000" />
+      <workItem from="1588415565006" duration="3674000" />
+      <workItem from="1588442444370" duration="3334000" />
+      <workItem from="1588452253708" duration="615000" />
+      <workItem from="1588497476541" duration="2358000" />
+      <workItem from="1588510020308" duration="14108000" />
+      <workItem from="1588530330800" duration="6118000" />
+      <workItem from="1588585002794" duration="4739000" />
+      <workItem from="1588677649459" duration="6195000" />
+      <workItem from="1588690817085" duration="829000" />
+      <workItem from="1588760162751" duration="32819000" />
+      <workItem from="1588949311327" duration="11717000" />
+      <workItem from="1589027054181" duration="4604000" />
+      <workItem from="1589100907138" duration="6428000" />
+      <workItem from="1589124504690" duration="12907000" />
+      <workItem from="1589183869132" duration="12013000" />
+      <workItem from="1589361037758" duration="22468000" />
+      <workItem from="1589447719132" duration="2033000" />
+      <workItem from="1589452500968" duration="2917000" />
+      <workItem from="1589460380850" duration="13169000" />
+      <workItem from="1589530797835" duration="2923000" />
+      <workItem from="1589536571183" duration="14439000" />
+      <workItem from="1589621673683" duration="26959000" />
+      <workItem from="1589711936828" duration="20838000" />
+      <workItem from="1589797050439" duration="17465000" />
+      <workItem from="1589893405790" duration="7738000" />
+      <workItem from="1589974418928" duration="31530000" />
+      <workItem from="1590055464949" duration="1199000" />
+      <workItem from="1590063261545" duration="5590000" />
+      <workItem from="1590087320157" duration="9922000" />
+      <workItem from="1590139818818" duration="17154000" />
+      <workItem from="1590236813647" duration="5767000" />
+      <workItem from="1590340470609" duration="1091000" />
+      <workItem from="1590341826435" duration="5104000" />
+      <workItem from="1590848766145" duration="1908000" />
+      <workItem from="1590923610260" duration="20777000" />
+      <workItem from="1591018932338" duration="12290000" />
+      <workItem from="1591113329782" duration="11371000" />
+      <workItem from="1591129106520" duration="1252000" />
+      <workItem from="1591184612307" duration="13981000" />
+      <workItem from="1591705333041" duration="23593000" />
+      <workItem from="1592128603524" duration="28388000" />
+      <workItem from="1592207627368" duration="7096000" />
+      <workItem from="1592217556175" duration="7582000" />
+      <workItem from="1592228983176" duration="14951000" />
+      <workItem from="1592395065266" duration="6500000" />
+      <workItem from="1592479576934" duration="11077000" />
+      <workItem from="1592518550346" duration="4181000" />
+      <workItem from="1592555301956" duration="33429000" />
+      <workItem from="1592641968995" duration="16103000" />
+      <workItem from="1592730987651" duration="12683000" />
+      <workItem from="1592811954740" duration="36217000" />
+      <workItem from="1592907017631" duration="18060000" />
+      <workItem from="1592987216079" duration="9573000" />
+      <workItem from="1593013731905" duration="78000" />
+      <workItem from="1593013836695" duration="6007000" />
+      <workItem from="1593034576096" duration="8136000" />
+      <workItem from="1593077834571" duration="16484000" />
+      <workItem from="1593160915923" duration="23746000" />
+      <workItem from="1593198373324" duration="2783000" />
+      <workItem from="1593360091417" duration="710000" />
+      <workItem from="1593447433965" duration="1354000" />
+      <workItem from="1593507073299" duration="15593000" />
+      <workItem from="1593529227269" duration="4473000" />
+      <workItem from="1593599128722" duration="1592000" />
+      <workItem from="1593637705718" duration="764000" />
+      <workItem from="1593680687155" duration="18731000" />
+      <workItem from="1593766169053" duration="32355000" />
+      <workItem from="1593873413075" duration="15138000" />
+      <workItem from="1593941864041" duration="17843000" />
+      <workItem from="1594029889687" duration="16301000" />
+      <workItem from="1594072971580" duration="3311000" />
+      <workItem from="1594108499328" duration="2530000" />
+      <workItem from="1594111048384" duration="24751000" />
+      <workItem from="1594159794433" duration="1866000" />
+      <workItem from="1594208955808" duration="1258000" />
+      <workItem from="1594305888618" duration="8051000" />
+      <workItem from="1594332485579" duration="4883000" />
+      <workItem from="1594369855775" duration="10244000" />
+      <workItem from="1594388130879" duration="248000" />
+      <workItem from="1594389346807" duration="5956000" />
+      <workItem from="1594562867136" duration="15271000" />
+      <workItem from="1594634156120" duration="27500000" />
+      <workItem from="1594830847028" duration="4278000" />
+      <workItem from="1594905555218" duration="14038000" />
+      <workItem from="1594982369183" duration="2422000" />
+      <workItem from="1594996050841" duration="9831000" />
+      <workItem from="1595023101939" duration="4220000" />
+      <workItem from="1595089429422" duration="18642000" />
+      <workItem from="1595157200811" duration="17550000" />
+      <workItem from="1595191831842" duration="8786000" />
+      <workItem from="1595238621994" duration="29369000" />
+      <workItem from="1595347251590" duration="20986000" />
+      <workItem from="1595409900890" duration="26085000" />
+      <workItem from="1595456857866" duration="1693000" />
+      <workItem from="1595494283539" duration="659000" />
+      <workItem from="1595494958582" duration="20263000" />
+      <workItem from="1595544094794" duration="3422000" />
+      <workItem from="1595584390887" duration="28266000" />
+      <workItem from="1595624569313" duration="5384000" />
+      <workItem from="1595670449517" duration="9639000" />
+      <workItem from="1595763671908" duration="1937000" />
+      <workItem from="1595771249132" duration="4722000" />
+      <workItem from="1595857040804" duration="15195000" />
+      <workItem from="1595883559503" duration="7446000" />
+      <workItem from="1595929014293" duration="22696000" />
+      <workItem from="1595955363816" duration="783000" />
+      <workItem from="1595957265783" duration="1209000" />
+      <workItem from="1595972063903" duration="2808000" />
+      <workItem from="1596017843643" duration="3474000" />
+      <workItem from="1596025746797" duration="12284000" />
+      <workItem from="1596047681639" duration="3389000" />
+      <workItem from="1596105535847" duration="26569000" />
+      <workItem from="1596190142745" duration="12187000" />
+      <workItem from="1596536988804" duration="16000" />
+      <workItem from="1596537040565" duration="89000" />
+      <workItem from="1596539519496" duration="20984000" />
+      <workItem from="1596578075488" duration="4980000" />
+      <workItem from="1596613872613" duration="17844000" />
+      <workItem from="1596662757099" duration="5341000" />
+      <workItem from="1596708980655" duration="2274000" />
+      <workItem from="1596711470456" duration="3249000" />
+      <workItem from="1596790804283" duration="1116000" />
+      <workItem from="1596792649085" duration="639000" />
+      <workItem from="1596793327214" duration="163000" />
+      <workItem from="1596793509308" duration="11751000" />
+      <workItem from="1597224185909" duration="38013000" />
+      <workItem from="1597313917426" duration="23611000" />
+      <workItem from="1597415367017" duration="15057000" />
+      <workItem from="1597501119055" duration="11054000" />
+      <workItem from="1597530002505" duration="6319000" />
+      <workItem from="1597565203946" duration="30312000" />
+      <workItem from="1597655827677" duration="23177000" />
+      <workItem from="1597700763434" duration="6383000" />
+      <workItem from="1597744858878" duration="20643000" />
+      <workItem from="1597827291068" duration="3365000" />
+      <workItem from="1597876142529" duration="8635000" />
+      <workItem from="1597913976059" duration="8206000" />
+      <workItem from="1597949468030" duration="12953000" />
+      <workItem from="1598000318471" duration="4552000" />
+      <workItem from="1598029520019" duration="3296000" />
+      <workItem from="1598182640656" duration="28621000" />
+      <workItem from="1598260502496" duration="18065000" />
+      <workItem from="1598346399085" duration="23739000" />
+      <workItem from="1598391275882" duration="7821000" />
+      <workItem from="1598429475403" duration="14428000" />
+      <workItem from="1598481636200" duration="7290000" />
+      <workItem from="1598517840756" duration="20914000" />
+      <workItem from="1598569354931" duration="5520000" />
+      <workItem from="1598609865213" duration="10258000" />
+      <workItem from="1598621470199" duration="17573000" />
+      <workItem from="1598866763917" duration="23517000" />
+      <workItem from="1598899409354" duration="15841000" />
+      <workItem from="1598953633329" duration="24648000" />
+      <workItem from="1598999626602" duration="3462000" />
+      <workItem from="1599036770734" duration="11771000" />
+      <workItem from="1599148913710" duration="4761000" />
+      <workItem from="1599216493499" duration="19822000" />
+      <workItem from="1599305390081" duration="4831000" />
+      <workItem from="1599386436879" duration="1064000" />
+      <workItem from="1599388186553" duration="13501000" />
+      <workItem from="1599500203738" duration="15073000" />
+      <workItem from="1599916204218" duration="23851000" />
+      <workItem from="1599986556699" duration="22032000" />
+      <workItem from="1600182134875" duration="7960000" />
+      <workItem from="1600211328006" duration="3236000" />
+      <workItem from="1600275523041" duration="17503000" />
+      <workItem from="1600335319151" duration="23976000" />
+      <workItem from="1600385263326" duration="753000" />
+      <workItem from="1600418006859" duration="6975000" />
+      <workItem from="1600536692676" duration="17888000" />
+      <workItem from="1600778910259" duration="15977000" />
+      <workItem from="1600816150982" duration="3473000" />
+      <workItem from="1600937970598" duration="7659000" />
+      <workItem from="1600947580133" duration="19796000" />
+      <workItem from="1601023789192" duration="14026000" />
+      <workItem from="1601061427784" duration="13729000" />
+      <workItem from="1601109183883" duration="3218000" />
+      <workItem from="1601316364923" duration="10130000" />
+      <workItem from="1601367988489" duration="15864000" />
+      <workItem from="1601392177486" duration="9080000" />
+      <workItem from="1601457028073" duration="35815000" />
+      <workItem from="1601717665415" duration="16615000" />
+      <workItem from="1601927774142" duration="3730000" />
+      <workItem from="1601981164656" duration="17703000" />
+      <workItem from="1602067074797" duration="33292000" />
+      <workItem from="1602152595883" duration="21325000" />
+      <workItem from="1602198596429" duration="673000" />
+      <workItem from="1602238336327" duration="18036000" />
+      <workItem from="1602286247688" duration="4684000" />
+      <workItem from="1602582591653" duration="35145000" />
+      <workItem from="1602668745863" duration="24852000" />
+      <workItem from="1602706507795" duration="3754000" />
+      <workItem from="1602710859323" duration="2935000" />
+      <workItem from="1602755735688" duration="22955000" />
+      <workItem from="1602805611387" duration="3488000" />
+      <workItem from="1602846128317" duration="20259000" />
+      <workItem from="1602927568565" duration="9934000" />
+      <workItem from="1603118763181" duration="13095000" />
+      <workItem from="1603142107228" duration="1429000" />
+      <workItem from="1603187958398" duration="20101000" />
+      <workItem from="1603277245039" duration="14739000" />
+      <workItem from="1603358643735" duration="27916000" />
+      <workItem from="1603446573664" duration="36848000" />
+      <workItem from="1603533794564" duration="10358000" />
+      <workItem from="1603794069169" duration="4578000" />
+      <workItem from="1603808141506" duration="10962000" />
+      <workItem from="1603841937841" duration="5366000" />
+      <workItem from="1603877151638" duration="11823000" />
+      <workItem from="1603898250102" duration="4119000" />
+      <workItem from="1603985192269" duration="8392000" />
+      <workItem from="1604015507420" duration="3459000" />
+      <workItem from="1604052556666" duration="16302000" />
+      <workItem from="1604080779087" duration="9422000" />
+      <workItem from="1604338542469" duration="11093000" />
+      <workItem from="1604396633819" duration="23528000" />
+      <workItem from="1604446456300" duration="3082000" />
+      <workItem from="1604485412213" duration="25243000" />
+      <workItem from="1604570431127" duration="23609000" />
+      <workItem from="1604617541950" duration="3942000" />
+      <workItem from="1604657302202" duration="35583000" />
+      <workItem from="1604761654138" duration="6679000" />
+      <workItem from="1604932726253" duration="17763000" />
+      <workItem from="1605002888627" duration="9552000" />
+      <workItem from="1605014835942" duration="13738000" />
+      <workItem from="1605086361251" duration="35544000" />
+      <workItem from="1605180095320" duration="17569000" />
+      <workItem from="1605227264445" duration="594000" />
+      <workItem from="1605263588386" duration="1997000" />
+      <workItem from="1605270703369" duration="22844000" />
+      <workItem from="1605349948257" duration="20007000" />
+      <workItem from="1605542248390" duration="13883000" />
+      <workItem from="1605607050148" duration="18902000" />
+      <workItem from="1605692039516" duration="13979000" />
+      <workItem from="1605719621327" duration="9209000" />
+      <workItem from="1605780235127" duration="16963000" />
+      <workItem from="1605868390719" duration="6502000" />
+      <workItem from="1605877382692" duration="14772000" />
+      <workItem from="1605958847880" duration="19628000" />
+      <workItem from="1605987075441" duration="15150000" />
+      <workItem from="1606038480431" duration="6944000" />
+      <workItem from="1606143269150" duration="29836000" />
+      <workItem from="1606210408510" duration="25609000" />
+      <workItem from="1606256712779" duration="3446000" />
+      <workItem from="1606297042202" duration="7747000" />
+      <workItem from="1606309080095" duration="7256000" />
+      <workItem from="1606319898908" duration="17370000" />
+      <workItem from="1606382897029" duration="11140000" />
+      <workItem from="1606399176125" duration="10367000" />
+      <workItem from="1606432917370" duration="1599000" />
+      <workItem from="1606473695525" duration="7063000" />
+      <workItem from="1606555418994" duration="17694000" />
+      <workItem from="1606766335560" duration="14904000" />
+      <workItem from="1606825711949" duration="18305000" />
+      <workItem from="1606862532959" duration="5353000" />
+      <workItem from="1606901102980" duration="28740000" />
+      <workItem from="1606936468100" duration="6161000" />
+      <workItem from="1607008383608" duration="8250000" />
+      <workItem from="1607074752377" duration="1330000" />
+      <workItem from="1607086049510" duration="21232000" />
+      <workItem from="1607166135254" duration="101000" />
+      <workItem from="1607175482626" duration="8214000" />
+      <workItem from="1607208564410" duration="1113000" />
+      <workItem from="1607247438332" duration="1884000" />
+      <workItem from="1607249802657" duration="3146000" />
+      <workItem from="1607254075569" duration="202000" />
+      <workItem from="1607257955671" duration="17365000" />
+      <workItem from="1607293804718" duration="7359000" />
+      <workItem from="1607336997121" duration="29902000" />
+      <workItem from="1607418721252" duration="19682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="649" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601072213366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601072213366" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606212662354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1606212662354" />
+    <state x="601" y="237" width="672" height="677" key="run.anything.popup" timestamp="1605694135545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="237" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605694135545" />
+    <state x="1261" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1607359562798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1261" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607359562798" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/unAuthorised/unAuthorised.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>81</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>90</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/profile/statusBlock.js</url>
+          <line>41</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/users.js</url>
+          <line>236</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/backGroundSetter.tsx</url>
+          <line>62</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/backGroundSetter.tsx</url>
+          <line>61</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>125</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/App.js</url>
+          <line>63</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/navBar/navBar.js</url>
+          <line>35</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/friends/friendsContainer.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/users.js</url>
+          <line>187</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/friends/friends.js</url>
+          <line>191</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/dialogsReducer.tsx</url>
+          <line>153</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/dialogs/dialogs.js</url>
+          <line>164</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/profile/profileCompWithContainer.js</url>
+          <line>149</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/profile/profileCompWithContainer.js</url>
+          <line>90</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/dialogs/dialogs.js</url>
+          <line>115</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/app.tsx</url>
+          <line>37</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/users.js</url>
+          <line>138</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/usersReducer.tsx</url>
+          <line>96</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/usersContainer.js</url>
+          <line>159</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/usersContainer.js</url>
+          <line>125</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/usersContainer.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/selectors.js</url>
+          <line>150</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/users/users.js</url>
+          <line>157</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/content/profile/profileCompWithContainer.js</url>
+          <line>217</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/dialogsReducer.tsx</url>
+          <line>301</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/dialogsReducer.tsx</url>
+          <line>317</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/profileReducer.tsx</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/redux/profileReducer.tsx</url>
+          <line>41</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

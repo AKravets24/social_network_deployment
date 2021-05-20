@@ -1,0 +1,580 @@
+.usersPage,
+.friendsGeneral{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr;
+    opacity: 0.9;
+    border-radius: 0 0 25px 0;
+    min-height: 700px;
+}
+
+.delay {
+    transition: 4000ms
+}
+
+.usersPageN, .friendsGeneralN { background-color: #cfedff;     }
+.usersPageM, .friendsGeneralM { background-color: #fbc498;     }
+.usersPageD, .friendsGeneralD { background-color: lightyellow; }
+.usersPageE, .friendsGeneralE { background-color: #fef0f0;     }
+
+.userInfo {}
+
+.generalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 4px auto 4px auto;
+    height: 50px;
+}
+
+.generalHeaderN {border-bottom: 1px solid blue;      }
+.generalHeaderM {border-bottom: 1px solid orangered; }
+.generalHeaderD {border-bottom: 1px solid green;     }
+.generalHeaderE {border-bottom: 1px solid darkred;   }
+
+
+.userHeader {
+    color: red;
+    margin: 0;
+    display: inline;
+    padding: 5px 0 5px 0;
+}
+
+.friendsHeader {
+    height: 50px;
+    display: flex;
+}
+
+.friendsHeaderH2 {
+    color: red;
+    margin: 0;
+    display: inline;
+    margin: 8px 0 0px 15px;
+}
+
+.paginationBlockOutside {
+    display: flex;
+    height: 45px;
+}
+
+.pagBTN {
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.pagBTN:enabled {
+    cursor: pointer;
+}
+
+.pagBTN_N                   {background-color: #4967ff;                }
+.pagBTN_N:hover:enabled     {background-color: midnightblue;color:white}
+.pagBTN_N:active:enabled    {background-color: darkblue;color:white    }
+
+.pagBTN_M                   {background-color: #ff8151;                }
+.pagBTN_M:hover:enabled     {background-color: #ff5818;color:white     }
+.pagBTN_M:active:enabled    {background-color: #f12a11;color:white     }
+
+.pagBTN_D                   {background-color: #90ee90;             }
+.pagBTN_D:hover:enabled     {background-color: #4dd14d;    color:black }
+.pagBTN_D:active:enabled    {background-color: #08ac08;    color:black }
+
+.pagBTN_E                   {background-color: #cd5c5c;                  }
+.pagBTN_E:hover:enabled     {background-color: darkred; color:white    }
+.pagBTN_E:active:enabled    {background-color: red; color:white        }
+
+
+.paginationSelected,
+.pagination {
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+}
+
+.pagination {
+    cursor: pointer;
+}
+
+.paginationN           {color: blue}
+.paginationN:hover     {color: darkblue}
+.paginationN:active    {color: red}
+.paginationSelectedN   {color: red}
+
+
+.paginationM           {color: black;}
+.paginationM:hover     {color: saddlebrown;}
+.paginationM:active    {color: red;}
+.paginationSelectedM   {color: red}
+
+
+.paginationD           {color: green;}
+.paginationD:hover     {color: red}
+.paginationD:active    {color: red}
+.paginationSelectedD   {color: red}
+
+
+.paginationE           {color: black;}
+.paginationE:hover     {color: orangered;}
+.paginationE:active    {color: red}
+.paginationSelectedE   {color: red}
+
+
+.searchBlock {
+    padding-bottom: 4px;
+}
+.searchInput {
+    cursor: text;
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+    font-size: 25px;
+    width: 200px
+}
+
+.searchInputN       {background-color: #fdfdfd    ; }
+.searchInputM       {background-color: #faffd3    ; }
+.searchInputD       {background-color: lightyellow; }
+.searchInputE       {background-color: #ffe1e1    ; }
+
+.searchBlock form {
+    display: flex;
+    align-items: center;
+}
+
+.searchBlock button {
+    margin-left: 2px;
+}
+
+.friendsGeneral li,
+.userInfo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.loaderDiv_Friends,
+.loaderDiv_Users {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.loaderDiv_Friends {
+    height: calc(100vh - 120px);
+}
+
+.loaderDiv_Users {
+    height: calc(100vh - 270px);
+}
+
+.Houston {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: darkred;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 20px 0;
+}
+.Houston h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.noFriendsWrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noFriendsWrapper p { 
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.loader{
+    height: 250px;
+    margin: auto;
+}
+
+.nobodyFound {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nobodyFound h2 {
+    display: inline;
+    margin: 0;
+}
+
+.mapWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    min-height: 500px;
+    height: auto!important;
+    max-height: calc(100vh - 270px);
+
+    overflow: auto;
+}
+.wrapperLocked {
+    overflow: hidden;
+}
+
+.mapWrapper::-webkit-scrollbar {
+    width:   15px;
+    height:  70%;
+    margin-right: 5px;
+    opacity: 0;
+}
+
+.mapWrapper::-webkit-scrollbar-button {
+    height: 2%;
+    background-color: lightgreen;
+}
+
+
+.mapWrapper::-webkit-scrollbar-thumb {
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 4px;
+}
+
+.mapWrapperN::-webkit-scrollbar          {background-color: lightyellow;}
+.mapWrapperN::-webkit-scrollbar-button   {background-color: deepskyblue;}
+.mapWrapperN::-webkit-scrollbar-thumb    {background-color: deepskyblue;}
+
+.mapWrapperM::-webkit-scrollbar          {background-color: lightyellow;}
+.mapWrapperM::-webkit-scrollbar-button   {background-color: orangered;  }
+.mapWrapperM::-webkit-scrollbar-thumb    {background-color: orangered;  }
+
+.mapWrapperD::-webkit-scrollbar          {background-color: lightyellow;}
+.mapWrapperD::-webkit-scrollbar-button   {background-color: lightgreen; }
+.mapWrapperD::-webkit-scrollbar-thumb    {background-color: lightgreen; }
+
+.mapWrapperE::-webkit-scrollbar          {background-color: lightyellow;}
+.mapWrapperE::-webkit-scrollbar-button   {background-color: darkred;    }
+.mapWrapperE::-webkit-scrollbar-thumb    {background-color: darkred;    }
+
+.userUnitContainer {
+    width: 47%;
+    margin: 10px auto;
+    height: 148px;
+}
+
+.userUnit {
+    border-radius: 15px;
+    height: 148px;
+
+}
+
+.userUnitHidden {
+    display: none;
+}
+.userUnitShowed {
+    display: flex;
+
+}
+
+.userUnitN       {border: 4px solid blue;     }
+.userUnitM       {border: 4px solid orangered;}
+.userUnitD       {border: 4px solid green;    }
+.userUnitE       {border: 4px solid darkred;  }
+
+.userUnitN:hover {background-color: white     }
+.userUnitM:hover {background-color: #ffb469;  }
+.userUnitD:hover {background-color: #adffaf;  }
+.userUnitE:hover {background-color: #ffafc6;  }
+
+.avaDiv {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.avaDiv img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.userAvaN          { border: 6px solid transparent;    background-color: #4967ff;   }
+.userAvaN:hover    { border: 6px solid midnightblue; background-color: transparent; }
+.userAvaN:active   { border: 6px solid darkblue;     background-color: transparent; }
+
+.userAvaM          { border: 6px solid transparent;    background-color: #ff8151;   }
+.userAvaM:hover    { border: 6px solid #ff8151;      background-color: transparent; }
+.userAvaM:active   { border: 6px solid #f12a11;      background-color: transparent; }
+
+.userAvaD          { border: 6px solid transparent;    background-color: lightgreen;}
+.userAvaD:hover    { border: 6px solid green;        background-color: transparent; }
+.userAvaD:active   { border: 6px solid darkgreen;    background-color: transparent; }
+
+.userAvaE          { border: 6px solid transparent;    background-color: indianred; }
+.userAvaE:hover    { border: 6px solid darkred;      background-color: transparent; }
+.userAvaE:active   { border: 6px solid red;          background-color: transparent; }
+
+.nameStateBTNs{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.followBTN {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.followBTN:enabled{
+    cursor: pointer;
+}
+
+.followBTNContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.followBTNText {
+    width: 85%;
+    padding: 2px 0 0 20%;
+}
+
+.followBTNText p{ 
+    margin: 0;
+}
+
+.followBTN:hover .onFollowingErrBTN {
+    display: none;
+}
+
+.followBTN:hover .tryAgainBTN {
+    display: block;
+}
+
+.tryAgainBTN {
+    display: none;
+}
+
+.followBTNLoader {
+    width: 15%;
+    padding: 2px 0 0 0 ;
+}
+
+.followBTNLoader img {
+    width: 20px;
+    margin: 0;
+}
+
+
+.followBTN_N                    {background-color: #4967ff;                                }
+.followBTN_N:hover:enabled      {background-color: midnightblue; color:white;            }
+.followBTN_N:active:enabled     {background-color: darkblue;     color:white;            }
+
+
+.followBTN_M                    {background-color: #ff8151;                                }
+.followBTN_M:hover:enabled      {background-color: #ff5818;    color:white;              }
+.followBTN_M:active:enabled     {background-color: #f12a11;    color:white;              }
+
+
+.followBTN_D                    {background-color: lightgreen; border: 2px solid green;  }
+.followBTN_D:hover:enabled      {background-color: #4dd14d;    color:black               }
+.followBTN_D:active:enabled     {background-color: #08ac08;    color:black               }
+
+
+.followBTN_E                    {background-color: indianred;                              }
+.followBTN_E:hover:enabled      {background-color: darkred;    color:white               }
+.followBTN_E:active:enabled     {background-color: red;        color:white               }
+
+
+.followBTN_ERR_N        {border: 1px solid #ff5f5f; box-shadow: #ff5f5f 0 0 19px 10px;  background-color: #ff3b3b; color: white; font-weight: bold; }
+.followBTN_ERR_N:hover  {border: 1px solid red;     box-shadow: red 0 0 19px 10px;      background-color: red;                                        }
+.followBTN_ERR_N:active {border: 1px solid darkred; box-shadow: darkred 0 0 19px 10px;  background-color: darkred;                                    }
+
+
+.followBTN_ERR_M        {border: 1px solid darkred; box-shadow: #a40000 0 0 19px 10px; background-color: #a40000; color: white; font-weight: bold;  }
+.followBTN_ERR_M:hover  {border: 1px solid #880f0f; box-shadow: #880f0f 0 0 19px 10px; background-color: #880f0f;                                     }
+.followBTN_ERR_M:active {border: 1px solid #5f0101; box-shadow: #5f0101 0 0 19px 10px; background-color: #5f0101;                                     }
+
+
+.followBTN_ERR_D        {border: 1px solid #ff2a2a; box-shadow: #ff7070 0 0 19px 10px; background-color: #ff7070; font-weight: bold;                  }
+.followBTN_ERR_D:hover  {border: 1px solid #ff0000; box-shadow: #ff2424 0 0 19px 10px; background-color: #ff2424;                                     }
+.followBTN_ERR_D:active {border: 1px solid red;     box-shadow: #ce0303 0 0 19px 10px; background-color: #ce0303;                                     }
+
+
+.followBTN_ERR_E        {border: 1px solid#ff0000; box-shadow: #ff4141 0 0 19px 15px; background-color: #ff4141;  color: #fdfdfd; font-weight: bold; }
+.followBTN_ERR_E:hover  {border: 1px solid#ac0000; box-shadow: #ac0000 0 0 19px 10px; background-color: #ac0000;                                  }
+.followBTN_ERR_E:active {border: 1px solid#f30000; box-shadow: #f30000 0 0 19px 10px; background-color: #f30000;                                  }
+
+
+.msgSender {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 148px;
+}
+
+.userWriteMode {
+    border-radius: 15px;
+    width: 100%;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+}
+.userWriteModeN       {border: 4px solid blue;     background-color: white;    }
+.userWriteModeM       {border: 4px solid orangered;background-color: #ffb469;  }
+.userWriteModeD       {border: 4px solid green;    background-color: #adffaf;  }
+.userWriteModeE       {border: 4px solid darkred;  background-color: #ffafc6;  }
+
+
+.miniHeadWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 30px;
+    margin-top: 5px;
+}
+.miniHeadWrapper h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    cursor: default;
+    max-width: 310px;
+    height: 30px;
+}
+
+.closeBTN {
+    width: 35px;
+    text-align: center;
+}
+
+.textAreaWrapper {}
+
+.textAreaWrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.talkTextarea {
+    resize: none;
+    outline: none;
+    width: 95%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: 5px auto;
+}
+
+.textAreaWrapper form button {
+    margin: 0 auto;
+}
+
+
+.userBlockInfo {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    overflow-y: hidden;
+}
+.userBlockInfo a {
+    text-decoration: none;
+    height: 0;
+}
+
+.userBlockInfo p {
+    height: 30px;
+    word-break: break-all;
+    width: 90%;
+}
+
+.userBlockInfo p,
+.userName {
+    margin-left: 10px;
+    margin-top: 65px;
+}
+
+.userName {
+    margin-top: 10px;
+    margin-bottom:  0;
+    display: inline-block;
+}
+
+.userNameN          {color: #4967ff;      }
+.userNameN:hover    {color: midnightblue; }
+.userNameN:active   {color: darkblue;     }
+
+
+.userNameM          {color: #ff652a;      }
+.userNameM:hover    {color: #ff5b1d;      }
+.userNameM:active   {color :#ff4700;      }
+
+
+.userNameD          {color: green;        }
+.userNameD:hover    {color: darkgreen;    }
+.userNameD:active   {color: #034b03;      }
+
+
+.userNameE          {color: darkred;      }
+.userNameE:hover    {color: indianred;    }
+.userNameE:active   {color: red;          }
+
+
+.followNWriteBTNS {
+    height: 50px;
+}
+
+.followNWriteBTNS button {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.moreUserUnits {
+    width: 90%;
+    border-top: 1px solid green;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.moreUserUnitsN { border-top: 1px solid blue;      }
+.moreUserUnitsM { border-top: 1px solid orangered; }
+.moreUserUnitsD { border-top: 1px solid green;     }
+.moreUserUnitsE { border-top: 1px solid darkred;   }
+
+.moreUsersShower {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px ;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+.moreUsersShower:enabled {
+    cursor: pointer;
+}
+
+
+

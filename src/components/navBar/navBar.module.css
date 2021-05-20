@@ -1,0 +1,137 @@
+.blockMenu {
+    height: 100%;
+    display: grid;
+    border-radius: 4px 4px 4px 20px;
+    width: 255px;
+}
+
+.delay {
+    transition: 4000ms;
+}
+
+.blockMenuN  {background-color: lightskyblue; }
+.blockMenuM  {background-color: #f36d3a;      }
+.blockMenuD  {background-color: lightgreen;   }
+.blockMenuE  {background-color: #661717;      }
+
+.menu {
+    margin: 0 0 0 0;
+    list-style-type: none;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li:first-child {
+    margin-top: 25px;
+}
+
+.menu li {
+    width: 70%;
+    padding: 20px 0 20px 32%;
+}
+
+.linkN                    {color: blue;text-decoration: none;  }
+.linkN:hover              {color: #cefdff;}
+.linkN:active             {color: white;}
+.menu a.activeLinkN       {color: white;}
+
+
+.linkM                    {color: #f6fff6;text-decoration: none;}
+.linkM:hover              {color: #3d3030;}
+.linkM:active             {color: black;}
+.menu a.activeLinkM       {color: black;}
+
+
+.linkD                    {color: darkgreen;text-decoration: none;}
+.linkD:hover              {color: orangered;}
+.linkD:active             {color: red;}
+.menu a.activeLinkD       {color: red}
+
+
+.linkE                    {color: white;text-decoration: none;}
+.linkE:hover              {color: lightcoral;}
+.linkE:active             {color: black}
+.menu a.activeLinkE       {color: black;}
+
+
+.dialogsSpan {
+
+}
+
+.dialogsSpan:hover button {
+    opacity: 1;
+    transition: 250ms;
+}
+
+.dialogsSpan a {
+    position: relative;
+}
+
+.dialogsSpan button  {
+    width: 50px;
+    height: 50px;
+    transition: 750ms;
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -8px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: green;
+}
+
+.hidden {
+    opacity: 0;
+}
+.showed {
+    opacity: 1;
+}
+
+.extraMsg {
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -10px;
+}
+
+.envelope {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.dialogsSpan button:hover {
+    border-width: 2px;
+    color: dodgerblue;
+}
+
+.dialogsSpan button:disabled {
+    opacity: 1;
+    color: gray;
+}
+
+.errorImg {
+    position: absolute;
+    width: 30px;
+    margin-top: -15px;
+}
+
+
+.dialogsSpan p {
+    opacity: 1;
+    margin-left: 120px;
+    margin-top: -30px;
+    margin-bottom: 0;
+
+}
+.counterN    {color: blue}
+.counterM    {color: #f6fff6}
+.counterD    {color: darkgreen}
+.counterE    {color: white}

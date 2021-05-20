@@ -1,0 +1,51 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'header header' 
+    'navBar content1';
+
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header {
+    grid-area: header;
+}
+
+.navBar {
+    grid-area: navBar;
+}
+
+.content1 {
+    grid-area: content1;
+    height: 100%;
+}
+
+.loaderBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loaderBlock img {
+    display: block;
+    box-shadow: lightyellow 0 0 19px;
+}
+
+.loaderBlock h1 {
+    color: beige;
+    font-size: 45px;
+    text-shadow: black 0 0 9px;
+}

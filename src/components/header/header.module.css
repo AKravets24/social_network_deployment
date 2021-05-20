@@ -1,0 +1,92 @@
+.header {
+    width: 100%;
+    border-radius: 15px 15px 3px 3px;
+    display: grid;
+    grid-template-areas: "boofer logotype login";
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.delay {
+    transition: 4000ms;
+}
+
+.headerN {background-color: midnightblue; }
+.headerM {background-color: #fff5cf;      }
+.headerD {background-color: lightskyblue; }
+.headerE {background-color: darkred;      }
+
+.buffer {
+    grid-area: boofer;
+}
+
+.logotype {
+    grid-area: logotype;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.logotype img {
+    height: 80px;
+}
+
+.logotype h1 {
+    text-align: center;
+}
+.logoTypeH1N {color: lightyellow; }
+.logoTypeH1M {color: black;       }
+.logoTypeH1D {color: white;       }
+.logoTypeH1E {color: lightyellow; }
+
+.login {
+    grid-area: login;
+    margin-top: 45px;
+}
+
+.logOutBTN {
+    background-color: transparent;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.logOutBTN img {
+    width: 30px;
+}
+
+.loginTrue {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.loginTrue img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.login h4  {
+    text-align: center;
+    margin: 0 15px 0  0;
+}
+.loginH4N {color: lightyellow;  }
+.loginH4M {color: black;        }
+.loginH4D {color: white;        }
+.loginH4E {color: lightyellow;  }
+
+
+.loginHref {
+    text-align: center;
+    margin: 0;
+}
+.loginHrefN  {color: lightyellow; }
+.loginHrefM  {color: black;       }
+.loginHrefD  {color: white;       }
+.loginHrefE  {color: lightyellow; }
+
+
+.login a {
+    text-decoration: none;
+}

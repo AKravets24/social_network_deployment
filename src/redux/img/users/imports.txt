@@ -1,0 +1,183 @@
+import userAvaPic1 from './img/usersAvas/userAvaPic1.jpg';
+import userAvaPic2 from './img/usersAvas/userAvaPic2.jpg';
+import userAvaPic3 from './img/usersAvas/userAvaPic3.jpg';
+import userAvaPic4 from './img/usersAvas/userAvaPic4.jpg';
+import userAvaPic5 from './img/usersAvas/userAvaPic5.jpg';
+import userAvaPic6 from './img/usersAvas/userAvaPic6.jpg';
+import userAvaPic7 from './img/usersAvas/userAvaPic7.jpg';
+import userAvaPic8 from './img/usersAvas/userAvaPic8.jpg';
+import userAvaPic9 from './img/usersAvas/userAvaPic9.jpg';
+import userAvaPic10 from './img/usersAvas/userAvaPic10.jpg';
+import userAvaPic11 from './img/usersAvas/userAvaPic11.jpg';
+import userAvaPic12 from './img/usersAvas/userAvaPic12.jpg';
+import userAvaPic13 from './img/usersAvas/userAvaPic13.jpg';
+import userAvaPic14 from './img/usersAvas/userAvaPic14.jpg';
+import userAvaPic15 from './img/usersAvas/userAvaPic15.jpg';
+import userAvaPic16 from './img/usersAvas/userAvaPic16.jpg';
+
+
+
+const initialUsersInfo = {
+    randomUsers: [
+        {
+            "userId": 1,
+            "userAvaSrc": userAvaPic1,
+            "subscribed": true,
+            "name": "Arnold",
+            "surname": "Sch",
+            "userState": "I'll be back!",
+            "userCountry": "USA",
+            "userCity": "Kalifornia"
+        },
+        {
+            "userId": 2,
+            "userAvaSrc": userAvaPic2,
+            "subscribed": false,
+            "name": "William",
+            "surname": "B",
+            "userState": "I am in your house, general. Is this the day?",
+            "userCountry": "USA",
+            "userCity": "Mesquite"
+        },
+        {
+            "userId": 3,
+            "userAvaSrc": userAvaPic3,
+            "subscribed": false,
+            "name": "Thomas",
+            "surname": "A",
+            "userState": "Ganga style!",
+            "userCountry": "USA",
+            "userCity": "Lost Heaven"
+        },
+        {
+            "userId": 4,
+            "userAvaSrc": userAvaPic4,
+            "subscribed": false,
+            "name": "Daddy",
+            "surname": "B",
+            "userState": "Where is my little lady?",
+            "userCountry": "USA",
+            "userCity": "Rapture City"
+        },
+        {
+            "userId": 5,
+            "userAvaSrc": userAvaPic5,
+            "subscribed": false,
+            "name": "Sam",
+            "surname": "B",
+            "userState": "Good job, Artem!",
+            "userCountry": "USA",
+            "userCity": "San-Diego"
+        },
+        {
+            "userId": 6,
+            "userAvaSrc": userAvaPic6,
+            "subscribed": false,
+            "name": "Ezio",
+            "surname": "A",
+            "userState": "Let's change the timeline!",
+            "userCountry": "Italia",
+            "userCity": "Rome"
+        },
+        {
+            "userId": 7,
+            "userAvaSrc": userAvaPic7,
+            "subscribed": false,
+            "name": "Frank",
+            "surname": "C",
+            "userState": "Where is my flameThrower?!",
+            "userCountry": "USA",
+            "userCity": "New-York"
+        },
+        {
+            "userId": 8,
+            "userAvaSrc": userAvaPic8,
+            "subscribed": false,
+            "name": "Striker",
+            "surname": "B",
+            "userState": "It will be mine!",
+            "userCountry": "England",
+            "userCity": "Skyfall"
+        },
+        {
+            "userId": 9,
+            "userAvaSrc": userAvaPic9,
+            "subscribed": false,
+            "name": "Max",
+            "surname": "R",
+            "userState": "Keep calm and fire at will!",
+            "userCountry": "USA",
+            "userCity": "Red Wasteland"
+        },
+        {
+            "userId": 10,
+            "userAvaSrc": userAvaPic10,
+            "subscribed": false,
+            "name": "Prince",
+            "surname": "P",
+            "userState": "Dahaka! He's found me here!",
+            "userCountry": "Persia",
+            "userCity": "Alamuth"
+        },
+        {
+            "userId": 11,
+            "userAvaSrc": userAvaPic11,
+            "subscribed": false,
+            "name": "James",
+            "surname": "B",
+            "userState": "Bond, James Bond",
+            "userCountry": "England",
+            "userCity": "Ireland"
+        },
+        {
+            "userId": 12,
+            "userAvaSrc": userAvaPic12,
+            "subscribed": false,
+            "name": "Sam",
+            "surname": "F",
+            "userState": "Nice and slow",
+            "userCountry": "USA",
+            "userCity": "Oklahoma"
+        },
+        {
+            "userId": 13,
+            "userAvaSrc": userAvaPic13,
+            "subscribed": false,
+            "name": "Wiggo",
+            "surname": "M",
+            "userState": "Where is my pants guys?!",
+            "userCountry": "Mordor",
+            "userCity": "United Kingdom"
+        },
+        {
+            "userId": 14,
+            "userAvaSrc": userAvaPic14,
+            "subscribed": false,
+            "name": "DarkPrince",
+            "surname": "P",
+            "userState": "Nice chain, bro!",
+            "userCountry": "Persia",
+            "userCity": "Alamuth"
+        },
+        {
+            "userId": 15,
+            "userAvaSrc": userAvaPic15,
+            "subscribed": false,
+            "name": "Claude",
+            "surname": "R",
+            "userState": "Let me speak from my heart!",
+            "userCountry": "USA",
+            "userCity": "Portland"
+        },
+        {
+            "userId": 16,
+            "userAvaSrc": userAvaPic16,
+            "subscribed": false,
+            "name": "Vaas",
+            "surname": "M",
+            "userState": "I told you what is madness?",
+            "userCountry": "Thailand",
+            "userCity": "Rook Island"
+        },
+    ]
+};
