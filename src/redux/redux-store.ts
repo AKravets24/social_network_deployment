@@ -28,11 +28,11 @@ type PropertiesTypes<T> = T extends { [key: string]: infer U } ? U : never  // i
 export type InferActionsTypes<T extends { [key: string]: (...args: any[]) => any }> = ReturnType<PropertiesTypes<T>>       // дженерик тип 
 
 //@ts-ignore
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;                                       // это для того, чтобы подцепить Redux Dev Tools
-export const store = createStore(rootReducer, /* preloadedState, */ composeEnhancers(applyMiddleware(thunkMiddleWare) // это для того, чтобы подцепить Redux Dev Tools
-));
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;                                       // это для того, чтобы подцепить Redux Dev Tools
+// export const store = createStore(rootReducer, /* preloadedState, */ composeEnhancers(applyMiddleware(thunkMiddleWare)  // это для того, чтобы подцепить Redux Dev Tools
+// ));
 
-// export let store = createStore(rootReducer, applyMiddleware(thunkMiddleWare));
+export let store = createStore(rootReducer, applyMiddleware(thunkMiddleWare));
 
 // @ts-ignore
 window.store = store;
