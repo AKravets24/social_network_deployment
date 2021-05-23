@@ -10,7 +10,7 @@ import './index.css';
 let reRender = (store) => {
   ReactDOM.render(
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Provider store={store} >
           <AppTimeDeterminationContainer />
         </Provider>
